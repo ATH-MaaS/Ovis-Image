@@ -14,7 +14,7 @@ class OvisTokenizer:
     Tokenizing and encoding/decoding text using the Ovis tokenizer.
 
     Args:
-        model_path (str): Path to the tokenzier from hugging face.
+        model_path (str): Path to the tokenizer from hugging face.
 
     """
 
