@@ -23,7 +23,7 @@ def generate_noise_latent(
     seed: int | None = None,
     latent_channel = None,
 ) -> Tensor:
-    """Generate noise latents for the flow model. The random seed will be set at the begining of training.
+    """Generate noise latents for the flow model. The random seed will be set at the beginning of training.
 
     Args:
         bsz (int): batch_size.
